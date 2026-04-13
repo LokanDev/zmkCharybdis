@@ -2,18 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: badjeff   # этот remote пока не используется, но оставим для будущего
+    - name: badjeff
       url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-pmw3610-driver   # ← Добавьте этот блок
+    - name: zmk-pmw3610-driver
       remote: badjeff
       revision: main
     - name: zmk-keyboards-charybdis
-      url: https://github.com/victorlucachi/zmk-keyboards-charybdis
+      url: https://github.com/nophramel/charybdis_zmk
       revision: main
       path: modules/zmk-keyboards-charybdis
   self:
