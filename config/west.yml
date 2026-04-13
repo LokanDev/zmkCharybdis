@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: choovick
-      url-base: https://github.com/choovick
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,9 +12,5 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: badjeff
       revision: main
-    - name: zmk-config-charybdis
-      remote: choovick
-      revision: main
-      path: modules/zmk-config-charybdis
   self:
     path: config
